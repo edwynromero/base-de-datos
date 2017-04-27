@@ -125,5 +125,5 @@ terminar la base de datos de taxi , si se puede terminar el sistema hoy mismo.
 
 
 https://www.youtube.com/watch?v=zoonJu7A0n4&index=5&list=PLX6uixaDwTippEXCU9X8OtaIFOMIv3IP0 curso intensivo de sql server
-
+ver esto
 
