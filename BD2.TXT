@@ -1,0 +1,107 @@
+Nombre: TFC
+
+trabajos
+profesores que los dirijen, aque alumnos se los dirijen
+temas de los que tratan
+alumnos que los realizan
+tribunales que los corrigen
+
+
+idprofesor
+tabla alumnoProf  para saber que profesor dirige que tfc
+idprofesor
+idalumno
+
+
+
+
+tabla tfc-alumnos
+idtfc
+idalumnos
+
+tabla alumno
+idalumno
+numero de matricula
+dni
+nombre
+
+tabla tfc
+idtfc.
+tema.
+nro de orden.
+fecha de inicio.
+
+
+tabla profesor
+idprofesor
+nombre 
+dni
+domicilio
+
+
+
+tabla comité.
+idcomite
+nro de tribunal.
+lugar de examen.
+nro de componentes.
+fecha de presentación
+idprofesor
+idalumnos
+
+grupos
+idalumno
+idgrupos
+nro de grupo
+nro componente
+nombre
+
+
+tabla de usuario
+idusuario
+nombre usuario
+clave usuario
+nivel usuario
+
+
+es importante saber cuantos profesores ayudaron en un tfc, fecha de incorporacion a dichos tfcs
+
+
+realizar auditoria de todos los movimientos de la base de datos.
+cuando se crea, cuando se actualiza, cuando se borra para todas las tablas.
+
+
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+
+
+ 
+
+
+
+
+
+
+
+

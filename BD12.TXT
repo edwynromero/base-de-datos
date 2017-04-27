@@ -1,0 +1,80 @@
+BASE DE DATOS PARA ZOOLOGICO
+ 
+ 
+tabla especies
+id especies
+nombre en español
+nombre cientifico
+descripcion general
+ 
+tabla hábitat
+idhabitat
+clima
+tipo de vegetacion
+continente, no estoy muy claro en esto.
+
+tabla zonas
+idzonas
+nombre
+extension de terreno
+
+tabla itinerarios
+iditinerarios
+duracion del recorrido
+longitud del itinerario
+numero de visitantes
+
+tabla de guias
+idguias
+nombre
+direccion 
+telefono
+fecha de ingreso
+iditinerarios
+
+dato de interes(un guia puede llevar varios itinerarios y que un itinerario puede ser dado a varios guias en diferentes horas)
+
+tabla cuidadores
+idcuidadores
+nombre
+direccion 
+telefono
+fecha de ingreso en el parque
+idespecie (Especie de la cual se hace cargo)
+
+datos interesantes el cuidador puede estar a cargo de diferentes especies, 
+
+
+
+
+realizar las claves foraneas y lo que le falta
+evitar que se dupliquen registros desde el principio
+realizar los triggers.
+realizar los procedimientos de almacenados.
+realizar los joins para realizar la optimizacion de consultas.
+realizar los eventos.
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+Realizar la respectiva auditoria de todos los movimientos de todas las tablas
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.

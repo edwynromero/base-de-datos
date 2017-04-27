@@ -1,0 +1,87 @@
+sistelecc
+
+
+tabla usuario
+idusuario
+nameusu
+passusu
+levelusu
+
+
+electores
+idelectores
+nombre
+apellido
+direccion
+dni
+fecha nan
+
+
+tabla mesa
+idmesa
+idelectores
+idtrabajadores de la mesa
+
+
+
+trabajadores de mesa
+idtrabajadores
+nombre
+apellidos
+dni
+direccion
+
+
+
+"tabla apoderarios"
+
+
+tabla partidos
+idpartidos
+namepartidos
+idpersonas
+cargo en el partido
+
+
+tabla de candidatos
+idcandidato
+name candidatos
+dni 
+idpartido
+comunidad
+
+
+
+
+
+votos
+idmiembros de mesa
+idmesa
+idcantidato
+
+Realizar la respectiva auditoria de todos los movimientos de todas las tablas
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+
+

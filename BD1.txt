@@ -1,0 +1,129 @@
+﻿base de datos servicio_militar
+show procedure status para saber que procedimientos de almacenados tengo en mi base de datos 
+https://www.youtube.com/channel/UCwMXDrvlHlF7tpGA3ZAx0cw/videos curso de diseño de pagina web excelente
+
+
+ojo siempre verificar aque hora comienzo y aque hora termino
+
+
+
+usuario
+idUsu
+nomUsu
+claUsu
+nivUsu
+
+
+soldado
+idsoldado
+nombre 
+apellido
+cedula 
+año de graduacion
+idcomponente
+idcuartel
+idcompania
+estado
+
+servicio
+idservicio
+nomServ
+
+compania
+idcompania
+nomcompania
+actividadcompania
+
+cuartel
+idcuartel
+nomcuartel
+ubicuartel
+
+inscripcion
+idinscripcion
+idsoldado
+idservicio
+fecha de inicio
+fecha final
+
+componente
+idcomponente
+ncomponente
+
+
+auditoria_soldado
+idAudi
+fechAudi
+accAudi
+idcuartel_nue
+idcomponente_nue
+idcompania_nue
+
+auditoria_soldado_servicio
+idAudiSold
+fechAudi
+accAudi
+idserv_nue
+idserv_vie
+idsoldado
+
+revisar como se exporta y como se importa una base de datos desde la consola.
+practicar mucho los ejercicios de creacion de procedimientos de almacenados 
+agregarles las claves foraneas a las tablas 
+agregarles las vistas a las tablas 
+
+
+auditoria para las demas tablas 
+
+procedimiento de almacenado para borrar los datos para actualizar para insertar, para seleccionar para verificar si hay registros .
+
+crear triggers 
+verificar cuando se ingreso y cuando se fue el soldado y de que usuario registro, actualizo y borro que?
+
+otro triggers para lo del servicio
+fechAudi,accAudi,idserv_nue,idsoldado.
+
+CREATE TRIGGER `auditoriaServ` AFTER INSERT ON `servicio`
+ FOR EACH ROW insert into auditoria(fechAudi, accAudi, idServ, nServ_nue, preServ_nue, idCat_nue) values (now(),"inserto", new.idServ, new.nServ, new.preServ, new.idCat)
+
+falta crear los otros procedimientos de almacenado de insercion 
+
+procedimiento para contar y consultar tabla es lo mismo
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `contartabla`(IN `tabla` VARCHAR(30))
+BEGIN
+SET @snt = CONCAT( ' SELECT COUNT(*) FROM ', tabla);
+PREPARE sent FROM @snt;
+EXECUTE sent;
+DEALLOCATE PREPARE sent;
+	END$$
+DELIMITER ;
+
+
+procedimiento para realizar la insercion de datos hacerlo con la respectiva validacion.
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_comp`(IN `nue_comp` VARCHAR(30))
+begin
+insert into componente(nomComp) values (nue_comp);
+end$$
+DELIMITER ;
+
+
+
+en la tabla  servicio soldado usuario, estas tablas llevan un insertado especial xq ellas hay que realizar las consultas con el alias.
+
+
+
+pagina de gabriel 777 y otra para buscar lo de el curso de yii framework habia otra pagina para el framework que ahorita no me acuerdo para nada.
+
+buscar tambien los temas en yii
+
+
+terminar la base de datos de taxi , si se puede terminar el sistema hoy mismo.
+
+
+https://www.youtube.com/watch?v=zoonJu7A0n4&index=5&list=PLX6uixaDwTippEXCU9X8OtaIFOMIv3IP0 curso intensivo de sql server
+
+

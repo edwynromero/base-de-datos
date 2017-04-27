@@ -1,0 +1,91 @@
+Agencia de viajes.
+
+
+
+tabla de usuario
+idusuario
+nameusuario
+passusu
+nivelusu
+
+
+
+
+hospedaje y vuelos
+
+hacer la tabla paquete que es la que muestra la operacion o tabla de agencia.
+ojo con el regimen de hospedaje, eso significa si se va comer siempre en el hotel o se va a elegir otro paquete 
+
+
+
+tabla sucursales
+cod sucursal
+dirección
+tlf.
+
+
+tabla hotel
+cod hotel
+nombre
+dirección
+ciudad
+tlf
+pension completa o media
+numero de plazas vacantes. son dos tipos
+
+
+tabla vuelo
+fecha
+hora
+nro de vuelo
+origen
+destino
+plazas totales
+plazas turisticas
+
+tabla turista.
+id turista
+nombre
+apellido
+direccion
+tlf.
+
+
+
+tabla pasaje u operacion o agencia
+idturista
+idagencia
+idvuelo
+precio del pasaje
+
+realizar la respectiva auditoria de todos los movimientos de todas las tablas.
+
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+sis-exam
+
+
+tabla usuario
+idusuario
+nameusuario
+passusuario
+nivelusuario
+
+
+tabla alumnos
+idalumno
+n matrícula
+nombre
+grupo o sección 
+
+
+tabla controles escritos
+idalumno
+idnro de control
+nro de preguntas
+fecha de realizacion
+nota por control
+
+
+tabla de practicas 
+idalumno
+idprofesor el que o los que la crearon
+idpractica
+titulo 
+tipo de practica
+grado de dificultad
+fecha 
+nota
+
+tabla de profesores
+idprofesor
+nombre
+apellido
+dni o cedula
+direccion
+fechanac
+
+
+practica
+que profesor la diseño o cuantos 
+la fecha en que la misma fue diseñada
+
+
+realizar las respectivas auditorias de todos los movimientos de todas las tablas del sistema.
+
+
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+

@@ -1,0 +1,76 @@
+BASE DE DATOS PARA SISTEMA DE VUELOS
+
+
+
+
+tabla usuario
+idusuario
+nameusuario
+claveusuario
+nivelusuario
+
+
+
+tabla de tripulacion
+idtripulacion
+esta tiene todas las caracteristicas de la tripulacion
+como se saca esto?
+
+
+tabla pasajeros
+idpasajeros
+name 
+address
+last name
+dni
+
+ 
+tabla aeropuerto
+idaeropuerto
+nombre 
+direccion
+pais
+idmodelosdeavion
+
+
+
+tabla modelos  de avion
+idmodelo de avion
+nombre
+capacidad
+
+
+tabla programas de vuelo
+idvuelo
+nro de vuelo
+idpasajeros
+idtripulacion
+idaeropuerto salida y llegada
+escalas tecnicas
+ 
+
+Se debe realizar auditoria de que usuario registro borro actualizo y todo lo que hace un usuario.
+
+
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.

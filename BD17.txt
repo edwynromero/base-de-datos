@@ -1,0 +1,95 @@
+transporte escolar tio juanito
+
+tabla choferes
+idchoferes
+namechofer
+apellido
+direccion 
+dni
+
+
+asistente del coductor
+idasistente
+nombre 
+apellido
+direccion
+dni
+
+
+tabla representante
+idrepresentante
+name
+apellido
+dni
+address
+idniños
+
+
+tabla colegio
+idcolegio
+nombre 
+direccion
+
+
+tabla niños
+nombre
+apellido
+idcolegio
+dni
+
+
+
+tabla ruta
+idruta
+nombre de la ruta
+origen hora
+destino hora
+
+
+
+tabla recorridos
+idrecorridos
+idruta
+
+
+
+tabla modalidad
+idmodalidad
+nombre modalidad mañana mediodia o tarde.
+precio
+
+
+tabla contrato
+modalidad mañana tarde etc
+periodo
+idrepresentante
+precio
+idrecorridos
+
+
+Realizar la respectiva auditoria de todos los movimientos de todas las tablas
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+
+

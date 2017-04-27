@@ -1,0 +1,105 @@
+sisconse.
+
+
+tabla usuario
+idusuario
+nameusuario
+passusuario
+nivelusuario
+
+
+tabla cliente
+idcliente
+nombre
+dni
+direccion
+teléfono
+idconsecionario
+
+tabla vendedor
+idvendedor
+nombre
+dni
+direccion
+tlf
+idconsecionario
+
+
+
+tabla consecionario
+idconsecionario
+nombre
+direccion
+
+
+tabla vehiculonuevo
+idvehiculonuevo
+marca
+modelo, cada modelo tiene características especiales.
+cilindrada
+precio
+idopcion
+idconcesionario
+
+tabla opcion
+idopcion
+nombre
+descripción
+
+tabla vehiculousado
+idvehiculousado
+Matrícula
+modelo
+marca
+precio
+
+
+tabla operacion
+idconsecionario
+idvehiculonuevo
+idvehiculousado
+idopcion
+idcliente
+idvendedor
+fecha de venta.
+
+
+
+
+(como se asigna una matricula, como registrar los vehiculos por consecionario.)
+
+
+Realizar la respectiva auditoria de todos los movimientos de todas las tablas
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+sistema de infordata.
+
+tabla usuario
+nombre 
+pass
+nivel
+
+
+tabla cliente
+idcliente
+nombre
+apellido
+direccion
+dni
+tlf
+
+
+tabla empresa
+id
+nombre
+direccion
+nro de empleados
+
+
+tabla producto
+idproducto
+nombre
+idproveedor
+caracteristica
+idempresa
+
+tabla proveedor
+idproveedor
+nombre proveedor
+rif
+direccion
+
+servicios tecnicos
+idser
+idcliente
+precio serv
+
+tabla productos por alquiler
+id
+nombre
+caracteristica
+precioxhora
+
+
+
+Realizar la respectiva auditoria de todos los movimientos de todas las tablas
+
+evitar que se dupliquen registros desde el principio.
+
+
+realizar su respectivo constraint o claves foraneas
+
+
+realizar los triggers
+que usuario ingreso borro y actualizo que alumno, profesor, tfc, 
+
+realizar los procedimientos de almacenados
+
+hacer el insert, la actualizacion y el borrado, hacer la consulta, hacer el count()
+
+
+realizar los joins y las vistas de todas las tablas
+
+
+realizar los eventos
+
+
+tratar de evitar que se registre  de otra forma que no sea por procedimiento de almacenado.
+
+
+
